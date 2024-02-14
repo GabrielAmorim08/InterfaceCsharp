@@ -1,0 +1,15 @@
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\bin\Debug\net8.0\InterfaceCsharp.exe
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\bin\Debug\net8.0\InterfaceCsharp.deps.json
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\bin\Debug\net8.0\InterfaceCsharp.runtimeconfig.json
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\bin\Debug\net8.0\InterfaceCsharp.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\bin\Debug\net8.0\InterfaceCsharp.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.sourcelink.json
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\refint\InterfaceCsharp.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\InterfaceCsharp.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\InterfaceCsharp\obj\Debug\net8.0\ref\InterfaceCsharp.dll

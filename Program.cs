@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using Entites;
 using InterfaceCsharp;
+using Services;
 System.Console.WriteLine("Enter rental data: ");
 System.Console.WriteLine("Car model: ");
 String model = Console.ReadLine();
@@ -8,5 +9,12 @@ System.Console.WriteLine("Pickup (dd/MM/yyy hh:ss): ");
 DateTime start = DateTime.ParseExact(Console.ReadLine(),"dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
 System.Console.WriteLine("Return (dd/MM/yyy hh:ss): ");
 DateTime finish = DateTime.ParseExact(Console.ReadLine(),"dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
-
+System.Console.WriteLine("Enter price per hour: ");
+double hour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+System.Console.WriteLine("enter price per day: ");
+double day = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 CarRental carRental = new CarRental(start,finish, new Vehicle(model));
+RentalService rentalService = new RentalService(hour,day);
+rentalService.ProcessInvoice(carRental);
+System.Console.WriteLine("INVOICE: ");
+System.Console.WriteLine(carRental.Invoice);
