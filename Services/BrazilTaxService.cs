@@ -1,8 +1,6 @@
 ﻿namespace Services;
 
-public class BrazilTaxService
-{
-
+public class BrazilTaxService : ITaxService {
     public double Tax(double amount)
     {
         if(amount <= 100.0)

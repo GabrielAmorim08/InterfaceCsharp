@@ -2,16 +2,18 @@
 using Entites;
 using InterfaceCsharp;
 
-public class RentalService
+class RentalService
 {
     public double PricePerHour { get; private set; }
     public double PricePerDay { get; private set; }
-    private BrazilTaxService _BrazilTaxService  = new BrazilTaxService();
+    private ITaxService _taxService;
 
-    public RentalService(double pricePerHour, double pricePerDay)
+    public RentalService(double pricePerHour, double pricePerDay, ITaxService taxService)
     {
         PricePerHour = pricePerHour;
         PricePerDay = pricePerDay;
+        _taxService = taxService;
+
     }
 
     public void ProcessInvoice(CarRental carRental)
@@ -25,7 +27,7 @@ public class RentalService
         else{
             basicPayment = PricePerDay * Math.Ceiling(duration.TotalDays);
         }
-        double tax = _BrazilTaxService.Tax(basicPayment);
+        double tax = _taxService.Tax(basicPayment);
 
         carRental.Invoice = new Invoice(basicPayment, tax);
     }
